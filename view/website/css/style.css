@@ -1,0 +1,295 @@
+@charset "utf-8";
+@font-face {
+    font-family: alsscrp;
+    src:
+url(../font/alsscrp.ttf)
+}
+
+body {font-family: tahoma; }
+
+/* background */
+.bg-red {background: #cc3333; }
+.bg-slover {background: #333333;}
+.bg-black {background:#000;}
+a:hover {text-decoration: none;}
+/* font-product name */
+.txt-proname {font-size: 13px;}
+
+/*  color text */
+.txt-white {color:#FFF;}
+.txt-slover {color:#EAEAEA;}
+.txt-red {color:#cc3333;}
+.txt-black {color:#000;}
+/* margin-top cart */
+.margin-top {margin-top:20px;}
+
+/*bold*/
+.bold {font-weight:600;font-size:16px}
+.bolds {font-weight:600;}
+
+/* font-size */
+.font-titt-pro {font-size: 18px;} 
+.font-menu {font-size:15px;color:#FFF;}
+
+
+/* header */
+.txt-header { width:100%;text-align:left;padding:10px 0px 0px 0px;}
+.icon-txt-header {width:100%;padding:10px 0px 0px 0px;float:right;font-size:13px;}
+.icon-txt-header img {width:12px;height:12px;float:left;margin-top:2px;}
+
+
+
+/* logo*/
+.logo {font-size:70px;color:#FFF;margin:15px 0px 15px 0px; font-family: alsscrp;font-weight:bold;}
+
+
+/*menu*/
+.menu {width:100%;margin-top:50px;font-size: 16px;}
+.menu ul {margin:0px; list-style:none;float:right;}
+.menu ul li {padding:5px 15px 5px 15px;float:left;}
+.menu ul li:hover {color:#cc3333;}
+
+
+/* content - left */
+.content-left {width:100%;padding:60px 20px 10px 0px;}
+.content-left .title-left {margin-top:25px;}
+.content-left .boder {width:100%;height:3px;margin-top:20px;}
+.content-left .list-menu-pro {margin-top:20px;}
+
+	
+/* content - right */
+.content-right {width:100%;padding:60px 0px 0px 0px;}	
+.content-right .slide-show {width:100%;margin-bottom:30px;}
+.content-right .tittle-view {width:100%;padding:0px;margin:0px;}
+.content-right .tittle-view .title-cont-right {float:left;padding:0px;margin:0px;}
+.content-right .tittle-view .view-more-r {float:right;}
+.content-right .boder-ct-r {width:100%;height:3px;margin-bottom:15px;}
+.content-right .img-size {width:150px;height:150px;}
+
+.content-right .product {margin:0px 0px 100px 0px;}
+.content-right .product p {padding:0px;margin:0px;text-align:center;}
+.content-right .product .btn-cart {margin:5px 0px 0px 40px;}
+
+
+
+/*footer*/
+.foot-left {width:100%;margin-top:20px;}
+.foot-left .title-foot {margin-bottom:10px;}
+.foot-left ul {list-style:none;margin:0px;padding:0px;}
+.foot-left ul li {padding-bottom:5px;}
+
+.foot-mid {width:100%;margin-top:20px;}
+.foot-mid img {width:50px;height:50px;float:left;margin-right:5px;}
+
+.foot-mid-2 {width:100%;margin-top:20px;}
+.foot-mid-2 .title-mid {margin-bottom:10px;}
+.foot-mid-2 ul {list-style:none;margin:0px;padding:0px;}
+.foot-mid-2 ul li {padding-bottom:5px;}
+
+.foot-right {width:100%;margin-top:20px;}
+.foot-right .title-right {margin-bottom:10px;}
+.foot-right ul {list-style:none;margin:0px;padding:0px;}
+.foot-right ul li {padding-bottom:5px;}
+.boder-foot {width:100%;height:1px;background:#CCC;margin:50px 0px 30px 0px;}
+.copyright {margin-bottom:20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* form search */
+        #custom-search-form {
+        margin:0;
+        margin-top: 5px;
+        padding: 0;
+    }
+ 
+    #custom-search-form .search-query {
+        padding-right: 3px;
+        padding-right: 4px \9;
+        padding-left: 3px;
+        padding-left: 4px \9;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+ 
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+        -webkit-transition: width  0.2s ease-in-out;
+    -moz-transition:width  0.2s ease-in-out;
+    -o-transition: width  0.2s ease-in-out;
+    transition: width  0.2s ease-in-out;
+    }
+ 
+    #custom-search-form button {
+        border: 0;
+        background: none;
+        /** belows styles are working good */
+        padding: 2px 5px;
+        margin-top: 2px;
+        position: relative;
+        left: -28px;
+        /* IE7-8 doesn't have border-radius, so don't indent the padding */
+        margin-bottom: 0;
+        -webkit-border-radius: 3px;
+        -moz-border-radius: 3px;
+        border-radius: 3px;
+    }
+ 
+    .search-query:focus + button {
+        z-index: 3;   
+    }   
+    .search-query:focus{
+        width: 260px;
+    }   
+
+
+
+/* button cart */
+.myButton {
+    -moz-box-shadow:inset 0px 39px 0px -24px #cc3333;
+    -webkit-box-shadow:inset 0px 39px 0px -24px #cc3333;
+    box-shadow:inset 0px 39px 0px -24px #cc3333;
+    background-color:#cc3333;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    border-radius:4px;
+    border:1px solid #ffffff;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    padding:3px 10px;
+    text-decoration:none;
+    text-shadow:0px 1px 0px #b23e35;
+}
+.myButton:hover {text-decoration:none;color:#FFF;}
+.myButton a:hover {color:#FFF;}
+
+
+
+
+
+/* form-login and register */
+.panel-login {
+    border-color: #ccc;
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,0.2);
+}
+.panel-login>.panel-heading {
+    color: #00415d;
+    background-color: #fff;
+    border-color: #fff;
+    text-align:center;
+}
+.panel-login>.panel-heading a{
+    text-decoration: none;
+    color: #666;
+    font-weight: bold;
+    font-size: 15px;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+.panel-login>.panel-heading a.active{
+    color: #cc3333;
+    font-size: 18px;
+}
+.panel-login>.panel-heading hr{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    clear: both;
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left,rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.15),rgba(0, 0, 0, 0));
+    background-image: -moz-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+    background-image: -ms-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+    background-image: -o-linear-gradient(left,rgba(0,0,0,0),rgba(0,0,0,0.15),rgba(0,0,0,0));
+}
+.panel-login input[type="text"],.panel-login input[type="email"],.panel-login input[type="password"] {
+    height: 45px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    -webkit-transition: all 0.1s linear;
+    -moz-transition: all 0.1s linear;
+    transition: all 0.1s linear;
+}
+.panel-login input:hover,
+.panel-login input:focus {
+    outline:none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-color: #ccc;
+}
+.btn-login {
+    background-color: #cc3333;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    height: auto;
+    font-weight: normal;
+    padding: 14px 0;
+    text-transform: uppercase;
+    border-color: #cc3333;
+}
+.btn-login:hover,
+.btn-login:focus {
+    color: #fff;
+    background-color: #cc3333;
+    border-color: #53A3CD;
+}
+.forgot-password {
+    text-decoration: underline;
+    color: #888;
+}
+.forgot-password:hover,
+.forgot-password:focus {
+    text-decoration: underline;
+    color: #666;
+}
+
+.btn-register {
+    background-color: #1CB94E;
+    outline: none;
+    color: #fff;
+    font-size: 14px;
+    height: auto;
+    font-weight: normal;
+    padding: 14px 0;
+    text-transform: uppercase;
+    border-color: #1CB94A;
+}
+.btn-register:hover,
+.btn-register:focus {
+    color: #fff;
+    background-color: #cc3333;
+    border-color: #1CA347;
+}
+
